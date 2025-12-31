@@ -1,45 +1,58 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>2025년 연하장</title>
 
-    <!-- Open Graph / SNS 공유 메타 태그 -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="2026년 새해 복 많이 받으세요!" />
-    <meta property="og:description" content="올해 흘린 땀방울, 2026년엔 꽃길로 돌려드릴게요 🌸" />
-    <meta property="og:image" content="/og-logo.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>2026년 새해 복 많이 받으세요!</title>
 
-    <!-- 카카오톡 -->
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+  <!-- Open Graph / SNS 공유 메타 태그 -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="2026년 새해 복 많이 받으세요!" />
+  <meta property="og:description" content="올해 흘린 땀방울, 2026년엔 꽃길로 돌려드릴게요 🌸" />
+  <meta property="og:image" content="/og-logo.png" />
 
-    <!-- 트위터 카드 -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="2026년 새해 복 많이 받으세요!" />
-    <meta name="twitter:description" content="올해 흘린 땀방울, 2026년엔 꽃길로 돌려드릴게요 🌸" />
-    <meta name="twitter:image" content="/og-logo.png" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Noto Sans KR', sans-serif;
-        background-color: #f3f4f6;
+  <!-- 카카오톡 -->
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- 트위터 카드 -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="2026년 새해 복 많이 받으세요!" />
+  <meta name="twitter:description" content="올해 흘린 땀방울, 2026년엔 꽃길로 돌려드릴게요 🌸" />
+  <meta name="twitter:image" content="/og-logo.png" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #f3f4f6;
+    }
+
+    .font-serif {
+      font-family: 'Noto Serif KR', serif;
+    }
+
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
       }
-      .font-serif {
-        font-family: 'Noto Serif KR', serif;
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
-      .fade-in {
-        animation: fadeIn 1s ease-in-out;
-      }
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
-      }
-    </style>
+    }
+  </style>
   <script type="importmap">
 {
   "imports": {
@@ -50,10 +63,12 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
+  <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
-    <div id="root"></div>
+
+<body>
+  <div id="root"></div>
   <script type="module" src="/index.tsx"></script>
 </body>
+
 </html>
